@@ -8,7 +8,7 @@ from adafruit_display_text import bitmap_label as label
 
 # *** BADGE CONFIGURATION ***
 # Update the following to the desired name and pronouns.
-NAME_STRING = "Kattni"
+NAME_STRING = "My Name"
 PRONOUN_STRING = "SHE/HER"
 
 # If you want to change the rest of the text, you can update the following.
