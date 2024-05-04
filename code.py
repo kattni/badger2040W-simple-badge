@@ -11,12 +11,12 @@ from adafruit_display_text import bitmap_label as label
 NAME_STRING = "My Name"
 PRONOUN_STRING = "SHE/HER"
 
-# If you want to change the rest of the text, you can update the following.
-HELLO_STRING = "HELLO MY NAME IS"
-
 # If your name doesn't fit, consider decreasing NAME_SCALE to 2.
 # This must be a whole number, 1 or greater. Note that 1 is quite small.
 NAME_SCALE = 3
+
+# If you want to change the rest of the text, you can update the following.
+HELLO_STRING = "HELLO MY NAME IS"
 
 # *** BADGE SETUP ***
 # Colors
