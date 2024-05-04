@@ -12,6 +12,11 @@ HELLO_STRING = "HELLO MY NAME IS"
 NAME_STRING = "Kattni"
 PRONOUN_STRING = "SHE/HER"
 
+# If you have a long name, you may need to decrease the font size. This is done by decreasing the scale.
+# If your name doesn't fit, consider decreasing NAME_SCALE to 2.
+# Scale must be a whole number, 1 or greater. Note that a scale of 1 is quite small.
+NAME_SCALE = 3
+
 # *** BADGE SETUP ***
 # Colors
 WHITE = (255, 255, 255)
@@ -38,7 +43,7 @@ hello_text.scale = 2
 name_text = label.Label(terminalio.FONT, text=NAME_STRING, anchor_point=(0.5, 0.5),
                         anchored_position=(display.width / 2, 70), color=BLACK)
 display_group.append(name_text)
-name_text.scale = 3
+name_text.scale = NAME_SCALE
 
 # Badge bottom line of text
 pronoun_text = label.Label(terminalio.FONT, text=PRONOUN_STRING, anchor_point=(0.5, 0.5),
