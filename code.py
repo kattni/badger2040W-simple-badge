@@ -6,15 +6,16 @@ import terminalio
 import vectorio
 from adafruit_display_text import bitmap_label as label
 
-# *** TEXT CONFIGURATION ***
-# Update the following to the desired text.
-HELLO_STRING = "HELLO MY NAME IS"
+# *** BADGE CONFIGURATION ***
+# Update the following to the desired name and pronouns.
 NAME_STRING = "Kattni"
 PRONOUN_STRING = "SHE/HER"
 
-# If you have a long name, you may need to decrease the font size. This is done by decreasing the scale.
+# If you want to change the rest of the text, you can update the following.
+HELLO_STRING = "HELLO MY NAME IS"
+
 # If your name doesn't fit, consider decreasing NAME_SCALE to 2.
-# Scale must be a whole number, 1 or greater. Note that a scale of 1 is quite small.
+# This must be a whole number, 1 or greater. Note that 1 is quite small.
 NAME_SCALE = 3
 
 # *** BADGE SETUP ***
